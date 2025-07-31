@@ -1,0 +1,23 @@
+
+.grid-container{
+     display: grid;
+    justify-items:start;
+    grid-template-columns: repeat(2,2fr);
+    padding: 10px;
+    gap: 20px;
+}
+#A{
+     display: grid;
+    justify-items:start;
+    grid-template-columns: repeat(4,20fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+#B{
+     display: grid;
+    justify-items:start;
+    grid-template-columns: repeat(2,4fr);
+    gap: 20px;
+    padding: 50px;
+}
